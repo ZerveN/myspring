@@ -12,6 +12,6 @@ public class MainConfig2 {
     @Scope
     @Bean("person")
     public Person person(){
-        return new Person("张三",25);
+        return new Person("李四",25);
     }
 }
