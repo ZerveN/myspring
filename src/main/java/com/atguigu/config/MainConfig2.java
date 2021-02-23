@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class MainConfig2 {
 
-    // 默认是单实例的
+    // 默认是单实例的 增加一点注释
     @Scope
     @Bean("person")
     public Person person(){
